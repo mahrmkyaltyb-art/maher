@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+
+/* الإعدادات العامة */ * { box-sizing: border-box; } html { scroll-behavior: smooth; } body { margin: 0; padding: 0; font-family: Tahoma, Arial, sans-serif; direction: rtl; text-align: right; background-color: #f2f7f5; color: #24352e; line-height: 1.8; } /* رأس الصفحة */ header { background: linear-gradient(135deg, #075e45, #0b9970); color: white; padding: 25px 7%; } header h1 { margin: 0; font-size: 36px; } header p { margin: 5px 0 15px; } /* قائمة التنقل */ nav { display: flex; flex-wrap: wrap; gap: 10px; 
+
+margin-top: 15px; } nav a { text-decoration: none; color: white; padding: 8px 14px; border-radius: 7px; transition: 0.3s; } nav a:hover { background-color: #ffcf33; color: #17392d; } /* المحتوى الرئيسي */ main { width: 90%; max-width: 1200px; margin: 30px auto; } /* الأقسام */ section { background-color: white; margin-bottom: 25px; padding: 30px; border-radius: 14px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06); } section h2 { color: #087653; border-right: 5px solid #ffbd2e; padding-right: 12px; margin-top: 0; } /* الواجهة الرئيسية */ .hero { text-align: center; padding: 65px 25px; background: linear-gradient(135deg, #d8f6e9, #fff4c9); } .hero h2 { border: none; color: #075e45; font-size: 34px; } .hero p { font-size: 18px; } /* الأزرار */ .buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 25px; } .button, button { display: inline-
+
+block; background-color: #07835d; color: white; text-decoration: none; border: none; border-radius: 8px; padding: 12px 22px; font-family: inherit; font-size: 16px; cursor: pointer; transition: 0.3s; } .button:hover, button:hover { background-color: #ffbd2e; color: #24352e; } /* البطاقات */ .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 20px; margin-top: 20px; } .card { background-color: #f7fcf9; padding: 22px; border: 1px solid #d8eee4; border-radius: 12px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04); transition: 0.3s; } .card:hover { transform: translateY(-4px); border-color: #07835d; } .card h3 { color: #087653; } .card a { color: #087653; font-weight: bold; } /* النماذج */ .form-box, .login-box { max-width: 650px; margin: 30px auto; } form { margin-top: 20px; } form div { margin-bottom: 18px; } label { display: block; 
+
+margin-bottom: 7px; font-weight: bold; } input, select, textarea { display: block; width: 100%; padding: 12px; border: 1px solid #cbd9d2; border-radius: 7px; background-color: white; font-family: inherit; font-size: 16px; outline: none; } input:focus, select:focus, textarea:focus { border-color: #07835d; box-shadow: 0 0 0 3px rgba(7, 131, 93, 0.12); } textarea { resize: vertical; } form button { width: 100%; } /* الأرقام */ .number { font-size: 30px; font-weight: bold; color: #07835d; } /* القوائم */ li { margin-bottom: 8px; } /* تذييل الصفحة */ footer { background-color: #063e30; color: white; text-align: center; padding: 25px 15px; margin-top: 40px; } /* الهواتف والشاشات الصغيرة */ @media (max-width: 600px) { header { padding: 20px; } header h1 { font-size: 29px; } nav { flex-direction: column; } nav a { display: block; } main { width: 94%; } section { padding: 
+
+20px; } .hero { padding: 35px 18px; } .hero h2 { font-size: 26px; } .buttons { flex-direction: column; } .button { text-align: center; } } 
